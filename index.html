@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!--google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <h1 class="title">Calculadora</h1>
+        <br>
+        <div class="entradas">
+            <div class="pantalla" id="pantalla">
+                <span id="operaciones">
+                </span>
+                <span id="resultados"></span>
+            </div>   
+            <div class="borrar-pantalla" onclick="borrar();">
+                <span class="material-icons">
+                    backspace
+                </span>
+            </div>
+            
+        </div>
+        <br>
+        
+        <br>
+        <div class="numeros">
+            <div class="grid-item" onclick="mostrar(1);">1</div>
+            <div class="grid-item" onclick="mostrar(2);">2</div>
+            <div class="grid-item" onclick="mostrar(3);">3</div>
+            <button type="button" onclick="sumar();">+</button>
+            <div class="grid-item" onclick="mostrar(4);">4</div>
+            <div class="grid-item" onclick="mostrar(5);">5</div>
+            <div class="grid-item" onclick="mostrar(6);">6</div>
+            <button type="button" onclick="restar();"> -</button>
+            <div class="grid-item" onclick="mostrar(7);">7</div>
+            <div class="grid-item" onclick="mostrar(8);">8</div>
+            <div class="grid-item" onclick="mostrar(9);">9</div>
+            <button type="button" onclick="multiplicar();">x</button>
+            <div class="grid-item" onclick="mostrar(0);">0</div>
+            <div class="grid-item" onclick="decimal()">.</div>
+            <div class="grid-item-igual" onclick="calcular()"> = </div>
+            <button type="button" onclick="dividir();">/</button>
+            
+        </div>   
+    </div>
+    <hr>
+    <script src="script.js"></script>
+</body>
+</html>

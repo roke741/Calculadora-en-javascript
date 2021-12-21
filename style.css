@@ -1,0 +1,81 @@
+.title{
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.entradas{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.pantalla{
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 10px;
+    text-align: right;
+    width: 83%;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+}
+.borrar-pantalla{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: end;
+    padding-right: 10px;
+}
+.material-icons{
+    font-size: 36px !important;
+}
+
+.numeros{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #003366;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px; 
+}
+.numeros button{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.grid-item{
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.grid-item-igual{
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    cursor: pointer;
+
+    background-color: #000000;
+}
+
+#resultados{
+    display: flex;
+    
+    color: #1d1c1c;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
