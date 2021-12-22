@@ -41,7 +41,13 @@ function dividir(){
 function calcular(){
     var caja = document.getElementById("operaciones");
     var resultados = eval(caja.innerHTML);
+    console.log(resultados);
+
+    if(resultados = "undefined"){
+        alert("Error ingrese una operacion valida");
+    }else{
     //var pequeño = caja.innerHTML;
     //document.getElementById("resultados").innerHTML = pequeño;
     caja.innerHTML = "= " + resultados;
+    }
 }
