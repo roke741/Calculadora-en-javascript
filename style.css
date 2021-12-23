@@ -86,3 +86,13 @@
     padding: 10px;
     justify-content: center;
 }
+
+.footer{
+    display: flex;
+    background-color: #160052;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}

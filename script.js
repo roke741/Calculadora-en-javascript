@@ -44,5 +44,11 @@ function calcular(){
     //var pequeño = caja.innerHTML;
     //document.getElementById("resultados").innerHTML = pequeño;
     caja.innerHTML = "= " + resultados;
+    if(caja.innerHTML == "= undefined"){
+        alert("No se ha ingresado ninguna operación");
+        caja.innerHTML = "";
+    }else if(caja.innerHTML == "= NaN"){
+        alert("No se ha ingresado ninguna operación");
+    }
     
 }
